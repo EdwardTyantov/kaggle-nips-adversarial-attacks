@@ -1,0 +1,9 @@
+{
+  "type": "defense",
+  "container": "tyantov/nips-adv-pytorch",
+  "container_gpu": "tyantov/nips-adv-pytorch",
+  "entry_point": "run_defense.sh",
+  "docker_args": {
+    "shm-size": "1024m"
+  }
+}
